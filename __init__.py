@@ -1,21 +1,16 @@
-import setuptools
+from .graphs import create_histogram, create_scatterplot, create_3d_plot
+from .tables import read_table, clean_data, analyze_data
+from .geometry import Square, Rectangle, Circle, Triangle
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
-    name="KairoGraph",
-    version="1.0",
-    author="Nathan Vilane",
-    author_email="learnfastwithnathan@gmail.com",
-    description="Python package for creating and analyzing plot graphs and tables, as well as generating grids and shapes.",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/<Afrinteli>/<repository>",
-    packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-)
+__all__ = [
+    "create_histogram",
+    "create_scatterplot",
+    "create_3d_plot",
+    "read_table",
+    "clean_data",
+    "analyze_data",
+    "Square",
+    "Rectangle",
+    "Circle",
+    "Triangle",
+]
