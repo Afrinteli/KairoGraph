@@ -11,7 +11,7 @@ setuptools.setup(
     description="Python package for creating and analyzing plot graphs and tables, as well as generating grids and shapes.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/<Afrinteli>/<repository>",
+    url="https://github.com/Afrinteli/kairograph",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
